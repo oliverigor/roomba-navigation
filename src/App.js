@@ -72,7 +72,6 @@ const App = () => {
     newRoombaPosition[currentRoombaPosition[0]][currentRoombaPosition[1]] =
       !newRoombaPosition[currentRoombaPosition[0]][currentRoombaPosition[1]]
 
-    console.log({ newRoombaPosition, newColumPosition, newRowPosition })
     setCells([...newRoombaPosition])
   }
 
